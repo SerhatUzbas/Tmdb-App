@@ -1,5 +1,5 @@
-import { useState, useCallback, useRef, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useState, useCallback, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 // import ArrowKeyNavigation from "boundless-arrow-key-navigation";
 
 const Input = (props) => {

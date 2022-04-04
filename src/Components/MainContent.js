@@ -1,8 +1,8 @@
-import { useContext, useCallback, useState } from "react";
-import { NavLink, Outlet, Route, Routes, useNavigate } from "react-router-dom";
+import { useContext } from "react";
+import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import AuthContext from "../Store/Context";
 import Input from "./Input";
-import Movie from "./Movie";
+// import Movie from "./Movie";
 import "./style.css";
 
 const MainContent = () => {

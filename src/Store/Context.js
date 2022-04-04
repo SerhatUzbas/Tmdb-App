@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBjD5LcKSux2BKbramC4k0H-arZ17KGmSg",
@@ -36,7 +36,7 @@ export const AuthContextProvider = (props) => {
   const [user, setUser] = useState(undefined);
   const [backdrop, setBackdrop] = useState(false);
   let navigate = useNavigate();
-  const token = localStorage.getItem("accessToken");
+  //   const token = localStorage.getItem("accessToken");
 
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {

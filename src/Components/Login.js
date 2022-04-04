@@ -1,10 +1,8 @@
 import { useContext } from "react";
-import { useNavigate } from "react-router-dom";
 import AuthContext from "../Store/Context";
 
 const LoginPage = () => {
   const authCtx = useContext(AuthContext);
-  let navigate = useNavigate();
   const login = () => {
     authCtx.auth.signInWithPopup(authCtx.provider).catch((e) => console.log(e));
   };
