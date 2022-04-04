@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import AuthContext from "../Store/Context";
+import AuthContext from "../../Store/Context";
 
 const Movie = (props) => {
   const [movieData, setMovieData] = useState(false);

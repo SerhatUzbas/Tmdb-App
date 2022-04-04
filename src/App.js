@@ -1,9 +1,9 @@
 import { useContext } from "react";
 import { Route, Routes, Navigate, useLocation } from "react-router-dom";
 import "./App.css";
-import Login from "./Components/Login";
+import Login from "./Components/Login/Login";
 import MainContent from "./Components/MainContent";
-import Movie from "./Components/Movie";
+import Movie from "./Components/Main/Movie";
 import Mylist from "./Components/Mylist";
 import NotFound from "./Components/NotFound";
 import AuthContext from "./Store/Context";
