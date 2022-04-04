@@ -8,3 +8,7 @@ Context API is preferred for state management.
 
 You can check this app via: https://serhat-tmdbapp.surge.sh/
 
+Please let me know if you catch any bugs or mistakes that prevents site works or makes worse.
+
+serhatuzbas@gmail.com
+
