@@ -1,4 +1,4 @@
-###TMDb App
+# TMDb App
 
 TMDb App is a desktop app which you can find and save movies into your personal account.
 
