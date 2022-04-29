@@ -6,7 +6,7 @@ The purpose of the project is authenticate user and keep his/her data in firebas
 I also tried using react-router v6 more effective. 
 Context API is preferred for state management.
 
-I inspired from Stpehen Kempin's TMDb project in terms of design perspective. 
+I inspired from Stpehen Kempin's TMDb project in terms of design perspective. All other codes and architecture belongs me.
 
 You can check this app via: https://serhat-tmdbapp.surge.sh/
 
